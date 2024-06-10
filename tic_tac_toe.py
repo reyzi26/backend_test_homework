@@ -12,6 +12,11 @@ def main():
     # Перерисовать поле с учётом сделанного хода.
     game.display()
     print(game.__str__())
+    game.make_move(1, 0, 'X')
+    print('Ход сделан!')
+    # Перерисовать поле с учётом сделанного хода.
+    game.display()
+    print(game.__str__())
 
 
 if __name__ == '__main__':
